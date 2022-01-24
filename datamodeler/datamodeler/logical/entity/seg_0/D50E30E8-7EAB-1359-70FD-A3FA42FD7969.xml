@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D50E30E8-7EAB-1359-70FD-A3FA42FD7969" name="Serija">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:11:07 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_serije" id="9FB33DF5-22C4-1BEB-1A39-E0A1FD4EBD90">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:11:12 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kol" id="D4CD5B19-5017-621B-0961-47B15A01521A">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:11:36 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_la" id="8CFF2967-D43A-3457-5A36-8CD2E5591433">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 18:03:23 UTC</createdTime>
+<generatorID>7DED5313-D327-8ADA-A7CA-3374052DE0D6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>DA9828AC-D9A1-DCB2-C0EB-27137B9D999B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E30D7DC1-9E48-D93E-FF22-7A54F8458855" name="Serija PK">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:11:33 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FB33DF5-22C4-1BEB-1A39-E0A1FD4EBD90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

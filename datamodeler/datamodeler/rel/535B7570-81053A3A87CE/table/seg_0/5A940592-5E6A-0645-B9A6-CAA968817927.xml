@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A940592-5E6A-0645-B9A6-CAA968817927" name="Personalizovani">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>BC0DCF1F-6D98-22B9-4523-1823949FDCED</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pro" id="4E8CEFBA-6BDA-3D93-E118-4D67978DBEF3">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>D200B2C5-A194-267F-0FD5-1135BD315B24</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="088460C3-692A-5269-7E18-19F8F6E01741" referredColumn="234BCF90-60E7-8416-0DFE-4F0F0B2206B5"/>
+</associations>
+</Column>
+<Column name="id_r" id="091C3A52-AA8F-7C9C-6F3B-F4C403582CDA">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>4460B1DD-A32E-8397-3A83-9E58F131C290</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B75BDB3-5330-4148-476E-90AA37AD385B" referredColumn="AA1E1F7F-FCFD-C7AA-AAB4-10C3EF7CEA6E"/>
+</associations>
+</Column>
+<Column name="id_mag" id="B2D4251D-065A-1483-6396-C25096714004">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>DA0C0B83-42CA-BC64-A076-BBEFFAC22D69</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8A61FBB-AFF0-BF1A-9177-D02374654821" referredColumn="727408E1-EB89-BF20-C3E9-B75C575AF561"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C144D6A4-07AD-87E9-EB7C-0F591BF299C1" name="Personalizovani_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>AE21A5D0-26F0-BC3C-849E-6B48E0638A2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E8CEFBA-6BDA-3D93-E118-4D67978DBEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28A8A297-6982-CB2F-4BCE-9CADF3AAEF75" name="Personalizovani__IDX">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>13D1AD95-8828-5014-D6F0-8DF29A62DBEF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="091C3A52-AA8F-7C9C-6F3B-F4C403582CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBF5D943-E3C9-93B0-A76F-F8423F138FC2" name="Personalizovani_Proizvod_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E45968CA-3720-B23D-D0A8-555065F769EE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E8CEFBA-6BDA-3D93-E118-4D67978DBEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DF9A1AE-616E-A669-3B09-AE383A9EFC90" name="Personalizovani_Personalizovani_recept_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>13D1AD95-8828-5014-D6F0-8DF29A62DBEF</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="091C3A52-AA8F-7C9C-6F3B-F4C403582CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A6268D2-B6A1-9871-4CA2-8D7E025C23D8" name="Personalizovani_Magistralna_laboratorija_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>4E6EAFDB-183A-B4B3-CCFE-C0EC7C76F83E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2D4251D-065A-1483-6396-C25096714004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

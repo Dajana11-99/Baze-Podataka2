@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB2E1E92-93F0-31C2-93DD-35E2C017FCF1" name="Dobavljeni">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:06:14 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EE67B53A-EC06-B027-7F03-03FA00008D60</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbr" id="CBAD567D-30B8-299E-31F2-0C1BDA844DA1">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:07:11 UTC</createdTime>
+<generatorID>5B73D563-763D-E18C-DCAC-794A10DB0A71</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>9C6AD67C-2BCC-F4A2-BC2A-B8166905A0C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ap" id="DF9EC02A-C796-7E46-5EA2-6FACC03F6556">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:07:11 UTC</createdTime>
+<generatorID>5B73D563-763D-E18C-DCAC-794A10DB0A71</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>E4243701-65A1-EE06-8577-BFDE058B0B01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_la" id="74D5DDDB-6198-38F6-5F42-885728E67D00">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:07:11 UTC</createdTime>
+<generatorID>5B73D563-763D-E18C-DCAC-794A10DB0A71</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>5BEE457F-D549-06B1-810D-3BD287E1EE3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_la1" id="81FF0515-33D8-15F9-8ABC-02143C8DA17F">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:08:11 UTC</createdTime>
+<generatorID>73C9C985-E335-9834-FA47-D22F45FAE94F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>54B9705E-50BB-263F-CB2F-878B67DD79C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dob" id="446DACEB-D13F-8538-3C57-5CF91B8C99DF">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:08:11 UTC</createdTime>
+<generatorID>73C9C985-E335-9834-FA47-D22F45FAE94F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>A2D968B4-5378-9F6D-6AD3-4870FE2C668D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

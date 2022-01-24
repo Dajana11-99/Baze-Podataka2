@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0E53754-BCFC-D786-45FD-438C81919CDE" containerWithKeyObject="823E2F79-091D-901D-2198-D272F3799BB0" localFKIndex="A443CF7F-E392-6FA9-8527-96183357F761" name="Personalizovani_recept_Specijalista_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>97369A27-3CA1-F75D-F081-66AB2BCEA3DE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Specijalista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F69AD2D-B9E1-E847-AB36-33DB25DF16B8</referredTableID>
+<keyObject>5038557A-3E27-16F8-7387-60E82DE76686</keyObject>
+<referredKeyID>5038557A-3E27-16F8-7387-60E82DE76686</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>br_lic</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

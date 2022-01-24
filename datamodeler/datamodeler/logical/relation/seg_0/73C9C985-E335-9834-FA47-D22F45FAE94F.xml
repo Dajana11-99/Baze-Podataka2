@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dostavlja" directorySegmentName="seg_0" id="73C9C985-E335-9834-FA47-D22F45FAE94F">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:08:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>09F8B8F6-77D3-A305-BE4F-289FCABB579F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7449DF5F-3D7D-D674-68CE-DB48D9242E64</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AB2E1E92-93F0-31C2-93DD-35E2C017FCF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

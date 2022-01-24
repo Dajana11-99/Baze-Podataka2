@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC3DA88C-CDCE-6287-7276-3247FAD678D6" name="Galenski">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-11 16:12:33 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EE67B53A-EC06-B027-7F03-03FA00008D60</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_serije" id="7AD21034-7D7C-50FD-729A-F4294455960C">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-11 16:13:38 UTC</createdTime>
+<generatorID>A5B4D7FE-1C00-3650-FCA1-D4D6DC5050A9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>9FB33DF5-22C4-1BEB-1A39-E0A1FD4EBD90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

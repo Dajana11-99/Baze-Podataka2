@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C95E28F-CF63-C080-421D-4B61FDE19F48" name="Magistralna_laboratorija">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>7A360AC8-1AED-0176-8696-C72AD1FCA635</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mag" id="727408E1-EB89-BF20-C3E9-B75C575AF561">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>20DEEF88-B639-0BE3-FD33-82B0EC3DDA2C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvadratura" id="7A6B0BA8-B060-7A35-7135-ECFDDE0569BB">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>D6769955-37E7-2C9D-A68D-90B06C9127A2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ap" id="CA08C09B-217D-5FF7-0324-E127F6CADD6C">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>8C9A8766-96E0-182E-9E9D-0312FB7BFCA3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="401F1EBF-C35C-D4E0-BC28-47BB703BEAA8" referredColumn="196E979A-C835-95DC-DFE1-6A084D654D1E"/>
+<colAssociation fkAssociation="8720B32C-A711-BF79-1B63-D5F5D97FC1A7" referredColumn="90ED3115-886C-04B0-BC6F-FF9D4B49002A"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="26587CBD-0995-13FC-64A0-DD11C656E9BB">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>75AD2F84-2772-5077-5CEE-813A77276277</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="401F1EBF-C35C-D4E0-BC28-47BB703BEAA8" referredColumn="107CE745-07B7-012F-021C-C24A76E97EC1"/>
+<colAssociation fkAssociation="8720B32C-A711-BF79-1B63-D5F5D97FC1A7" referredColumn="6326605E-E7B2-DDB0-5438-C5AFFBD2830A"/>
+</associations>
+</Column>
+<Column name="mbr" id="A1AE0F79-AD22-4F91-579A-92B5BD5356C9">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>29D5F8E7-3000-1773-DAB1-B439B3ECD7E4</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8720B32C-A711-BF79-1B63-D5F5D97FC1A7" referredColumn="E0215395-83C3-7D42-FED8-110E591B0075"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C08B1D58-4C77-C7F8-E6BA-5C867F5F3506" name="Magistralna_laboratorija_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>1756C5DF-BCB6-CC86-49FC-20E0F3A050B7</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="727408E1-EB89-BF20-C3E9-B75C575AF561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2EC5B4-58C6-B2AE-11C9-19B0C717C3D9" name="Magistralna_laboratorija__IDX">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71CB5187-17A4-003C-F544-F43E4D87A577</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A1AE0F79-AD22-4F91-579A-92B5BD5356C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00E5AA40-2C1F-F608-5CAE-6230193B3EB4" name="Magistralna_laboratorija__IDXv1">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>574742D8-6A64-063B-0D1A-C51CFEAB8693</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA08C09B-217D-5FF7-0324-E127F6CADD6C"/>
+<colUsage columnID="26587CBD-0995-13FC-64A0-DD11C656E9BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9133C697-472F-7E39-2C39-A21746FBA28D" name="Magistralna_laboratorija__IDXv2">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 14:45:57 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71CB5187-17A4-003C-F544-F43E4D87A577</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A1AE0F79-AD22-4F91-579A-92B5BD5356C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F7C83AF-2D51-4678-5865-84F9082419F3" name="Magistralna_laboratorija_Magistar_farmacije_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>71CB5187-17A4-003C-F544-F43E4D87A577</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1AE0F79-AD22-4F91-579A-92B5BD5356C9"/>
+<colUsage columnID="CA08C09B-217D-5FF7-0324-E127F6CADD6C"/>
+<colUsage columnID="26587CBD-0995-13FC-64A0-DD11C656E9BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762E3A61-6FB3-DD3D-F945-33DE172FAB7C" name="Magistralna_laboratorija_Apoteka_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>574742D8-6A64-063B-0D1A-C51CFEAB8693</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA08C09B-217D-5FF7-0324-E127F6CADD6C"/>
+<colUsage columnID="26587CBD-0995-13FC-64A0-DD11C656E9BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

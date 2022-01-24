@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F00EA288-C67F-E31A-0C68-2E037E633CAB" name="Magistar_farmacije">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>9C55CBC9-2F22-FAB8-D700-E105B165E5B5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="E0215395-83C3-7D42-FED8-110E591B0075">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>9C6AD67C-2BCC-F4A2-BC2A-B8166905A0C3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AF2F42B-3659-DC5C-F3AE-71974FA528F5" referredColumn="44FC43C3-04BC-9D4D-EC2E-4A06695CC8E7"/>
+</associations>
+</Column>
+<Column name="id_ap" id="90ED3115-886C-04B0-BC6F-FF9D4B49002A">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E4243701-65A1-EE06-8577-BFDE058B0B01</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AF2F42B-3659-DC5C-F3AE-71974FA528F5" referredColumn="988F5F97-DC90-FFF8-80B2-34752956D466"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="6326605E-E7B2-DDB0-5438-C5AFFBD2830A">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>5BEE457F-D549-06B1-810D-3BD287E1EE3E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AF2F42B-3659-DC5C-F3AE-71974FA528F5" referredColumn="CB30E000-78D2-8914-1D64-7335A274013E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="311AA8E6-39F8-A780-CD77-A6CBE3F41CDE" name="Magistar_farmacije_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>2D76DE3B-D5DB-F39A-B001-4553C390FB98</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0215395-83C3-7D42-FED8-110E591B0075"/>
+<colUsage columnID="90ED3115-886C-04B0-BC6F-FF9D4B49002A"/>
+<colUsage columnID="6326605E-E7B2-DDB0-5438-C5AFFBD2830A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CCA89DB-108F-51FE-5D3B-8903DD423AD5" name="Magistar_farmacije_Radnik_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>445FE02E-C664-D65D-BB8A-EF2C04C9D0A0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0215395-83C3-7D42-FED8-110E591B0075"/>
+<colUsage columnID="90ED3115-886C-04B0-BC6F-FF9D4B49002A"/>
+<colUsage columnID="6326605E-E7B2-DDB0-5438-C5AFFBD2830A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

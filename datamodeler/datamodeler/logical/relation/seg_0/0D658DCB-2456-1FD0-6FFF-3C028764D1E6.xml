@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ima ugovor sa lancem" directorySegmentName="seg_0" id="0D658DCB-2456-1FD0-6FFF-3C028764D1E6">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 18:08:06 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>976FF6A8-81F7-D0A8-3205-83A2F368DF75</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB5D6D86-1DDC-3FF6-1232-0B4BEDEF286B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7449DF5F-3D7D-D674-68CE-DB48D9242E64</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

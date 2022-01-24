@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7449DF5F-3D7D-D674-68CE-DB48D9242E64" name="Ugovor">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:51:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dat_isug" id="7E39F836-FA17-D990-3061-1EDFF3EF88F8">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:54:53 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_skug" id="966BD654-0859-03CF-3E82-C416F22E3C59">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:55:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_la" id="54B9705E-50BB-263F-CB2F-878B67DD79C5">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 18:04:59 UTC</createdTime>
+<generatorID>C6EBCEC7-E693-9775-D72A-F7D03DF9C7C3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>6D29EE66-D913-DD4A-A9C6-5473D1C8CC30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dob" id="A2D968B4-5378-9F6D-6AD3-4870FE2C668D">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 18:08:06 UTC</createdTime>
+<generatorID>0D658DCB-2456-1FD0-6FFF-3C028764D1E6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>6BF42E15-BDBA-D9B3-C127-4FADF9B7C098</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09F8B8F6-77D3-A305-BE4F-289FCABB579F" name="Ugovor PK">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 18:04:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54B9705E-50BB-263F-CB2F-878B67DD79C5</attributeRef>
+<attributeRef>A2D968B4-5378-9F6D-6AD3-4870FE2C668D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nudi" directorySegmentName="seg_0" id="51A3BC4F-0963-9DEF-98A2-F944C9B11D52">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-11 13:40:46 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>00D05B64-AD9A-8ED5-4955-856803AAD953</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78456F9F-1468-A943-D1A3-B5D0CDD79AA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE67B53A-EC06-B027-7F03-03FA00008D60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

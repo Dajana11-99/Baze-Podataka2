@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pravi" directorySegmentName="seg_0" id="4E6EAFDB-183A-B4B3-CCFE-C0EC7C76F83E">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:04:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>1756C5DF-BCB6-CC86-49FC-20E0F3A050B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A360AC8-1AED-0176-8696-C72AD1FCA635</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC0DCF1F-6D98-22B9-4523-1823949FDCED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2063240-96FC-0132-F048-AFC52D6C9FB6" name="Galenski">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>EC3DA88C-CDCE-6287-7276-3247FAD678D6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pro" id="5E6B367E-DB06-F2A9-7FFF-DF374F4456A3">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>D200B2C5-A194-267F-0FD5-1135BD315B24</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BDBE128-CEED-F246-5F7F-5252E69D037E" referredColumn="234BCF90-60E7-8416-0DFE-4F0F0B2206B5"/>
+</associations>
+</Column>
+<Column name="id_serije" id="7796300B-E3F0-A807-F091-B5150E829C07">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>7AD21034-7D7C-50FD-729A-F4294455960C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91699E34-F1C2-C3E0-B48C-886AB1137251" referredColumn="3D6AB797-11DE-C75F-202E-5CEA34D97D47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38135110-D98B-2E14-6ECE-1C2F050E5340" name="Galenski_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>AE21A5D0-26F0-BC3C-849E-6B48E0638A2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6B367E-DB06-F2A9-7FFF-DF374F4456A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EC1D769-1181-1959-21E5-C974B863F28F" name="Galenski__IDX">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A5B4D7FE-1C00-3650-FCA1-D4D6DC5050A9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7796300B-E3F0-A807-F091-B5150E829C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304099F1-ADCB-CFDB-CD08-9713CAE6D786" name="Galenski_Proizvod_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>74DED909-6721-9F88-BB74-BD287FB4D0D2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6B367E-DB06-F2A9-7FFF-DF374F4456A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="898568AA-AE9E-AA1E-0600-02B5413E58E7" name="Galenski_Serija_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>A5B4D7FE-1C00-3650-FCA1-D4D6DC5050A9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7796300B-E3F0-A807-F091-B5150E829C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

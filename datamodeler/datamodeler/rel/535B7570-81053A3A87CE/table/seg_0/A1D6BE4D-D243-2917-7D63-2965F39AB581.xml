@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1D6BE4D-D243-2917-7D63-2965F39AB581" name="Direktor">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>51C80264-6EFB-89CE-2AC6-990C4BB76528</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="DA4AA423-22D1-7AF9-39CE-42691721C093">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>9C6AD67C-2BCC-F4A2-BC2A-B8166905A0C3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8AFD766-61CA-C7EF-7FC1-C464FBC1C0EE" referredColumn="44FC43C3-04BC-9D4D-EC2E-4A06695CC8E7"/>
+</associations>
+</Column>
+<Column name="id_ap" id="683F83BF-2B23-3D5A-A37D-9F80F155FC45">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E4243701-65A1-EE06-8577-BFDE058B0B01</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="626866E3-C36B-23F3-D627-DC11606291F7" referredColumn="196E979A-C835-95DC-DFE1-6A084D654D1E"/>
+<colAssociation fkAssociation="B8AFD766-61CA-C7EF-7FC1-C464FBC1C0EE" referredColumn="988F5F97-DC90-FFF8-80B2-34752956D466"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="AF5A6FDA-C569-D116-3A72-86C98596FB31">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>5BEE457F-D549-06B1-810D-3BD287E1EE3E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8AFD766-61CA-C7EF-7FC1-C464FBC1C0EE" referredColumn="CB30E000-78D2-8914-1D64-7335A274013E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBECF473-3680-D014-A177-7768E600D98F" name="Direktor_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>2D76DE3B-D5DB-F39A-B001-4553C390FB98</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4AA423-22D1-7AF9-39CE-42691721C093"/>
+<colUsage columnID="683F83BF-2B23-3D5A-A37D-9F80F155FC45"/>
+<colUsage columnID="AF5A6FDA-C569-D116-3A72-86C98596FB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B9324F5-2C70-1680-84B9-18B6C93DB81C" name="Direktor__IDX">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 14:45:57 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B45ED238-F4F6-1436-132F-117C6C391C09</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="683F83BF-2B23-3D5A-A37D-9F80F155FC45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EBA171B-1963-6AC7-1BAC-70898F1B8717" name="Direktor_Radnik_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>815259DB-A468-55E1-9E22-AF39DC3151D6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4AA423-22D1-7AF9-39CE-42691721C093"/>
+<colUsage columnID="683F83BF-2B23-3D5A-A37D-9F80F155FC45"/>
+<colUsage columnID="AF5A6FDA-C569-D116-3A72-86C98596FB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B5FF5F0-BB7D-DAB0-B82B-EE278E55D4FD" name="Direktor_Apoteka_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-14 20:10:27 UTC</createdTime>
+<generatorID>B45ED238-F4F6-1436-132F-117C6C391C09</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="683F83BF-2B23-3D5A-A37D-9F80F155FC45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

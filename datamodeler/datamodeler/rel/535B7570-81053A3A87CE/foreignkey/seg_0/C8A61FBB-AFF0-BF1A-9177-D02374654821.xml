@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8A61FBB-AFF0-BF1A-9177-D02374654821" containerWithKeyObject="5A940592-5E6A-0645-B9A6-CAA968817927" localFKIndex="5A6268D2-B6A1-9871-4CA2-8D7E025C23D8" name="Personalizovani_Magistralna_laboratorija_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>4E6EAFDB-183A-B4B3-CCFE-C0EC7C76F83E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Magistralna_laboratorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C95E28F-CF63-C080-421D-4B61FDE19F48</referredTableID>
+<keyObject>C08B1D58-4C77-C7F8-E6BA-5C867F5F3506</keyObject>
+<referredKeyID>C08B1D58-4C77-C7F8-E6BA-5C867F5F3506</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mag</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

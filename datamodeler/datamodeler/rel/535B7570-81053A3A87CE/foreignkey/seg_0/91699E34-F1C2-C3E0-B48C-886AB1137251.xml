@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91699E34-F1C2-C3E0-B48C-886AB1137251" containerWithKeyObject="D2063240-96FC-0132-F048-AFC52D6C9FB6" localFKIndex="898568AA-AE9E-AA1E-0600-02B5413E58E7" name="Galenski_Serija_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>A5B4D7FE-1C00-3650-FCA1-D4D6DC5050A9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Serija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15684F72-BA7B-49DC-25E9-D6D60E86A808</referredTableID>
+<keyObject>BB5E3189-4408-A6CD-3AB0-9268C045202E</keyObject>
+<referredKeyID>BB5E3189-4408-A6CD-3AB0-9268C045202E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_serije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

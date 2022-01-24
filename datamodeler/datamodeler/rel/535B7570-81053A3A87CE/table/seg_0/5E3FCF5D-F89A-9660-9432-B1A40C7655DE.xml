@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E3FCF5D-F89A-9660-9432-B1A40C7655DE" name="Proizvod">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>EE67B53A-EC06-B027-7F03-03FA00008D60</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pro" id="234BCF90-60E7-8416-0DFE-4F0F0B2206B5">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>D200B2C5-A194-267F-0FD5-1135BD315B24</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_pro" id="B11B38D9-FC67-9392-53E6-82AACA9E7D00">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>4C5336D3-C80B-9CCB-0A18-914EB97A4038</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_pro" id="BFBD7B52-E0AE-35AD-2306-98A87F8DD142">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E9B5D37B-C360-0CD6-5BEB-EC26CAAC5644</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_trajanja" id="E7872392-50E3-FDC2-9520-5A583996D16C">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>4023722B-7A11-703D-606D-E49001F900A1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_pro" id="A320F33D-B2F2-A60A-94C7-8B35A6E0B78E">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>6188A807-319E-0EE6-000B-3471069B93EA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<constraintName>CH_INH_Proizvod</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<domain>DA0D78C2-91AC-601C-0560-BE179EA7F477</domain>
+<listOfValues>
+<valueDef value="Dobavljeni" description="entity Dobavljeni"/>
+<valueDef value="Galenski" description="entity Galenski"/>
+<valueDef value="Personalizovani" description="entity Personalizovani"/>
+<valueDef value="Proizvod" description="entity Proizvod"/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="mbr" id="AC7A4B1C-67ED-17EF-6D36-7B8161A523CE">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>EA60A853-A3D6-ECFC-9133-751930F4C9AA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6160BF87-FAE7-EBE8-FDC9-0143A20F14DF" referredColumn="068B60C8-463D-310E-0261-9FA6C662BF1E"/>
+</associations>
+</Column>
+<Column name="id_ap" id="6BD91783-C7A7-CB5C-79C9-4CCF5FE2F8ED">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 14:45:57 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC7E3145-DCBC-FDC7-268B-D22F303B3A79" referredColumn="196E979A-C835-95DC-DFE1-6A084D654D1E"/>
+<colAssociation fkAssociation="6160BF87-FAE7-EBE8-FDC9-0143A20F14DF" referredColumn="055C530A-7881-EA69-4A38-7EA83AD3690B"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="8A7BB840-57E2-805B-C4D8-C86154278DE0">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 14:45:57 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC7E3145-DCBC-FDC7-268B-D22F303B3A79" referredColumn="107CE745-07B7-012F-021C-C24A76E97EC1"/>
+<colAssociation fkAssociation="6160BF87-FAE7-EBE8-FDC9-0143A20F14DF" referredColumn="AB3F5E2B-125D-E407-2B83-4491F2E16588"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0633E5D8-56E3-3DE4-70FA-2A059A7DDF44" name="Proizvod_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>AE21A5D0-26F0-BC3C-849E-6B48E0638A2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="234BCF90-60E7-8416-0DFE-4F0F0B2206B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A01DEBE1-01FE-5342-B28E-C70FDE8B7217" name="Proizvod_Farmaceutski_tehnicar_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>634C34D0-266C-5618-D007-20E95A715ED9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7A4B1C-67ED-17EF-6D36-7B8161A523CE"/>
+<colUsage columnID="6BD91783-C7A7-CB5C-79C9-4CCF5FE2F8ED"/>
+<colUsage columnID="8A7BB840-57E2-805B-C4D8-C86154278DE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41BDB005-DB75-B78F-CB8C-8E3CDEE3F968" name="Proizvod_Apoteka_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>51A3BC4F-0963-9DEF-98A2-F944C9B11D52</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD91783-C7A7-CB5C-79C9-4CCF5FE2F8ED"/>
+<colUsage columnID="8A7BB840-57E2-805B-C4D8-C86154278DE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

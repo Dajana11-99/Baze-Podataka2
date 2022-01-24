@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBE0C6C4-021B-CB73-6D68-70E28307C0A1" name="Ugovor">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>7449DF5F-3D7D-D674-68CE-DB48D9242E64</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dat_isug" id="DD97BA14-8920-23E2-DD6F-F08BD967EBF6">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>7E39F836-FA17-D990-3061-1EDFF3EF88F8</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_skug" id="6E242F8B-9FB1-0586-9EEB-CEF233312BF9">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>966BD654-0859-03CF-3E82-C416F22E3C59</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_la" id="2DEED738-9E91-9EF2-0FFA-2A7D6E9566D8">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>54B9705E-50BB-263F-CB2F-878B67DD79C5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7B39A44-55E7-A891-B867-2D0030BF5B18" referredColumn="47A1AFB6-366E-1DBF-DB11-7E547E4AEAF9"/>
+</associations>
+</Column>
+<Column name="id_dob" id="0FBF1864-F3C3-24B0-B019-AFEB9CAFD508">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>A2D968B4-5378-9F6D-6AD3-4870FE2C668D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C53DF7E-D944-5F33-A82F-4363FC79554A" referredColumn="5137862A-3CE3-00F7-F2BC-38D4A756DE7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5C9C845-7A83-275F-3748-4B8C8DD214DA" name="Ugovor_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>09F8B8F6-77D3-A305-BE4F-289FCABB579F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DEED738-9E91-9EF2-0FFA-2A7D6E9566D8"/>
+<colUsage columnID="0FBF1864-F3C3-24B0-B019-AFEB9CAFD508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38A841A9-F27D-9920-25CB-4316EFB60EBC" name="Ugovor_Lanac_apoteka_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>C6EBCEC7-E693-9775-D72A-F7D03DF9C7C3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DEED738-9E91-9EF2-0FFA-2A7D6E9566D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E5B41D8-7EBE-44A2-F160-91652AEA0AE5" name="Ugovor_Dobavljac_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>0D658DCB-2456-1FD0-6FFF-3C028764D1E6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FBF1864-F3C3-24B0-B019-AFEB9CAFD508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

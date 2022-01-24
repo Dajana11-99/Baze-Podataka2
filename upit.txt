@@ -1,0 +1,19 @@
+CREATE OR REPLACE VIEW profit_od_dobavljaca_po_apotekama AS
+SELECT dobavljeni.id_ap as id_ap, sum(proizvod.cena_pro) as ukupno_novca,
+count(dobavljac.id_dob)as broj_prodatih_proizvoda,dobavljac.naziv_dob as naziv_dob, dobavljac.id_dob
+FROM proizvod,dobavljeni,dobavljac
+WHERE  proizvod.id_pro = dobavljeni.id_pro and dobavljac.id_dob=dobavljeni.id_dob 
+GROUP BY  dobavljac.id_dob,dobavljeni.id_ap,dobavljac.naziv_dob,dobavljac.id_dob;
+
+CREATE OR REPLACE VIEW ukupan_profit_apoteka AS
+SELECT sum(ukupno_novca)as ukupno, id_ap
+from profit_od_dobavljaca_po_apotekama
+group by id_ap;
+
+CREATE OR REPLACE VIEW dobavljac_koji_je_ostvario_apoteci_najveci_profit AS
+SELECT p.id_ap as id_apoteke, ukupno_novca as maksimalni_profit , 
+naziv_dob,a.grad,uk.ukupno as ukupanProfitApoteke, round((ukupno_novca*100)/uk.ukupno,2) as udeo_dobavljaca
+FROM profit_od_dobavljaca_po_apotekama p,apoteka a,ukupan_profit_apoteka uk
+WHERE p.id_ap=a.id_ap and ukupno_novca >=(SELECT MAX(ukupno_novca) from profit_od_dobavljaca_po_apotekama WHERE p.id_ap=id_ap)
+ and uk.id_ap=p.id_ap
+ORDER BY ukupno_novca desc;

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FC80C8E-929D-0B68-0EAF-9745C13AB50D" name="Dobavljeni">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>AB2E1E92-93F0-31C2-93DD-35E2C017FCF1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pro" id="5EAF5F8E-EEC5-45F9-A2C7-DD8A920369EC">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>D200B2C5-A194-267F-0FD5-1135BD315B24</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99B36947-A0F3-9D1F-1778-5B3C5E92494F" referredColumn="234BCF90-60E7-8416-0DFE-4F0F0B2206B5"/>
+</associations>
+</Column>
+<Column name="mbr" id="447953C3-36DA-16CE-0F8A-8109A8994BBF">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>CBAD567D-30B8-299E-31F2-0C1BDA844DA1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA13BB85-806B-4C06-844F-5A02CE3FAB45" referredColumn="6F0A6958-BAE4-B32B-EA70-DEB65ADE89FD"/>
+</associations>
+</Column>
+<Column name="id_ap" id="9BFEE989-503D-8B74-1B90-7B00A09D823B">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>DF9EC02A-C796-7E46-5EA2-6FACC03F6556</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA13BB85-806B-4C06-844F-5A02CE3FAB45" referredColumn="FB7FDA38-736C-3D26-3372-09483EA6C158"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="AB7ADCF9-6106-518C-BE1A-0DC08EC80BB2">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>74D5DDDB-6198-38F6-5F42-885728E67D00</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA13BB85-806B-4C06-844F-5A02CE3FAB45" referredColumn="D06F1A28-2059-3EFC-94CE-3FD8B88968AD"/>
+<colAssociation fkAssociation="BA7533CF-9DC4-1CED-CA74-5B262BD47170" referredColumn="2DEED738-9E91-9EF2-0FFA-2A7D6E9566D8"/>
+</associations>
+</Column>
+<Column name="id_dob" id="D71ADC98-FC9B-CEE3-83D9-97DE8E5C100F">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>446DACEB-D13F-8538-3C57-5CF91B8C99DF</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA7533CF-9DC4-1CED-CA74-5B262BD47170" referredColumn="0FBF1864-F3C3-24B0-B019-AFEB9CAFD508"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3854EC6A-2296-F47A-FBE5-402FA50ADF3C" name="Dobavljeni_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>AE21A5D0-26F0-BC3C-849E-6B48E0638A2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAF5F8E-EEC5-45F9-A2C7-DD8A920369EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B113FC-C40D-C883-9E02-0C9D5520EE42" name="Dobavljeni_Proizvod_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>26C2F3B6-CAE8-2607-1EEE-67CFB705B1FB</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAF5F8E-EEC5-45F9-A2C7-DD8A920369EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAB2EB14-2D27-4958-B0E1-7E9A99E2A3EB" name="Dobavljeni_Ugovor_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>73C9C985-E335-9834-FA47-D22F45FAE94F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7ADCF9-6106-518C-BE1A-0DC08EC80BB2"/>
+<colUsage columnID="D71ADC98-FC9B-CEE3-83D9-97DE8E5C100F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="016D2E65-F58B-98D5-661A-C2184E8BC016" name="Dobavljeni_Administrativac_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>5B73D563-763D-E18C-DCAC-794A10DB0A71</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="447953C3-36DA-16CE-0F8A-8109A8994BBF"/>
+<colUsage columnID="9BFEE989-503D-8B74-1B90-7B00A09D823B"/>
+<colUsage columnID="AB7ADCF9-6106-518C-BE1A-0DC08EC80BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="porucuje" directorySegmentName="seg_0" id="5B73D563-763D-E18C-DCAC-794A10DB0A71">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:07:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>2D76DE3B-D5DB-F39A-B001-4553C390FB98</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA9CD989-4213-CA1D-C3E6-66611AA4D803</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AB2E1E92-93F0-31C2-93DD-35E2C017FCF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

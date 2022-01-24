@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E513894C-C70F-9DFC-F5A6-2A5DF4E84B3C" name="Administrativac">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:15:17 UTC</createdTime>
+<generatorID>AA9CD989-4213-CA1D-C3E6-66611AA4D803</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="6F0A6958-BAE4-B32B-EA70-DEB65ADE89FD">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>9C6AD67C-2BCC-F4A2-BC2A-B8166905A0C3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3643A454-8AA6-F415-F059-291B08300503" referredColumn="44FC43C3-04BC-9D4D-EC2E-4A06695CC8E7"/>
+</associations>
+</Column>
+<Column name="id_ap" id="FB7FDA38-736C-3D26-3372-09483EA6C158">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E4243701-65A1-EE06-8577-BFDE058B0B01</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3643A454-8AA6-F415-F059-291B08300503" referredColumn="988F5F97-DC90-FFF8-80B2-34752956D466"/>
+</associations>
+</Column>
+<Column name="naziv_la" id="D06F1A28-2059-3EFC-94CE-3FD8B88968AD">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>5BEE457F-D549-06B1-810D-3BD287E1EE3E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3643A454-8AA6-F415-F059-291B08300503" referredColumn="CB30E000-78D2-8914-1D64-7335A274013E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="621D84B6-3C9E-DE2E-F90F-C6A8AFBF55BB" name="Administrativac_PK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>2D76DE3B-D5DB-F39A-B001-4553C390FB98</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F0A6958-BAE4-B32B-EA70-DEB65ADE89FD"/>
+<colUsage columnID="FB7FDA38-736C-3D26-3372-09483EA6C158"/>
+<colUsage columnID="D06F1A28-2059-3EFC-94CE-3FD8B88968AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B868956-8699-93D6-8323-9EB274D5F0A0" name="Administrativac_Radnik_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>6C68CC1D-8766-6C28-683F-4535F9D611F0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F0A6958-BAE4-B32B-EA70-DEB65ADE89FD"/>
+<colUsage columnID="FB7FDA38-736C-3D26-3372-09483EA6C158"/>
+<colUsage columnID="D06F1A28-2059-3EFC-94CE-3FD8B88968AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

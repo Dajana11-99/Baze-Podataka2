@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="izdaje" directorySegmentName="seg_0" id="634C34D0-266C-5618-D007-20E95A715ED9">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:01:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<sourcePk>2D76DE3B-D5DB-F39A-B001-4553C390FB98</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A73E19F-28C2-E28F-07A8-614D75EA1A5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE67B53A-EC06-B027-7F03-03FA00008D60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

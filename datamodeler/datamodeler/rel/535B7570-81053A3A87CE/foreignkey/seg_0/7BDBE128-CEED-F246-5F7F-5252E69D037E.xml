@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BDBE128-CEED-F246-5F7F-5252E69D037E" containerWithKeyObject="D2063240-96FC-0132-F048-AFC52D6C9FB6" localFKIndex="304099F1-ADCB-CFDB-CD08-9713CAE6D786" name="Galenski_Proizvod_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>74DED909-6721-9F88-BB74-BD287FB4D0D2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Proizvod</referredTableLongName>
+<arc>674650C0-D621-434D-97F3-8AF9DAD24F25</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E3FCF5D-F89A-9660-9432-B1A40C7655DE</referredTableID>
+<keyObject>0633E5D8-56E3-3DE4-70FA-2A059A7DDF44</keyObject>
+<referredKeyID>0633E5D8-56E3-3DE4-70FA-2A059A7DDF44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Galenski</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

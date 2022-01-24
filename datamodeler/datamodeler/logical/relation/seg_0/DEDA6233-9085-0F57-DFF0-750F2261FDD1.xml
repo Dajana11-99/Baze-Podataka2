@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nadredjena" directorySegmentName="seg_0" id="DEDA6233-9085-0F57-DFF0-750F2261FDD1">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:09:50 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<targetPk>00D05B64-AD9A-8ED5-4955-856803AAD953</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je nadredjena</nameOnSource>
+<nameOnTarget>ima nadredjenu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78456F9F-1468-A943-D1A3-B5D0CDD79AA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78456F9F-1468-A943-D1A3-B5D0CDD79AA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

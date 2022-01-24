@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB985F12-633B-663E-0813-978C65DC72E1" containerWithKeyObject="933E94E4-41D8-6756-6EC2-4660EFB3BB56" localFKIndex="2DFD6709-9B05-E917-9FD9-0415D5FF0E85" name="Apoteka_Lanac_apoteka_FK">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-12 02:16:59 UTC</createdTime>
+<generatorID>E078C34B-A11D-0B86-C20E-7AC3C4C79C50</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Lanac_apoteka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BB83C72-6B45-E9B9-7CA8-342831F78E23</referredTableID>
+<keyObject>8E709F0C-6E57-9593-F72A-A09208F426FD</keyObject>
+<referredKeyID>8E709F0C-6E57-9593-F72A-A09208F426FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>naziv_la</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

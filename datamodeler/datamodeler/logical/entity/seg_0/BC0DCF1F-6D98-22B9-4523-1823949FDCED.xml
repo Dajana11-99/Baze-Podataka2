@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC0DCF1F-6D98-22B9-4523-1823949FDCED" name="Personalizovani">
+<createdBy>dajan</createdBy>
+<createdTime>2021-12-27 17:06:51 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EE67B53A-EC06-B027-7F03-03FA00008D60</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_r" id="4460B1DD-A32E-8397-3A83-9E58F131C290">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:03:21 UTC</createdTime>
+<generatorID>13D1AD95-8828-5014-D6F0-8DF29A62DBEF</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>489B29C4-D464-B65C-C9B9-B4EA9245C28E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mag" id="DA0C0B83-42CA-BC64-A076-BBEFFAC22D69">
+<createdBy>dajan</createdBy>
+<createdTime>2022-01-09 10:04:17 UTC</createdTime>
+<generatorID>4E6EAFDB-183A-B4B3-CCFE-C0EC7C76F83E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535B7570-C4D0-ED55-2C36-81053A3A87CE" value="true"/>
+</engineerTo>
+<referedAttribute>20DEEF88-B639-0BE3-FD33-82B0EC3DDA2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
